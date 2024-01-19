@@ -1,0 +1,348 @@
+.profilecontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs{
+  width: 18%;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem ;
+}
+
+.tabs button{
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.profilecontainer .content{
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid black; */
+  padding: 0.5rem 1rem;
+}
+
+.likedteacheronprofiledpage{
+  margin: 0.3rem 0;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 50%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  
+}
+
+.likedteacheronprofiledpage .linkteacher{
+  width: 70%;
+  display: flex;
+  color: #1f2123;
+}
+
+.likedteacheronprofiledpage .linkteacher div{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  overflow: hidden;
+  margin-right: 0.2rem;
+}
+
+.likedteacheronprofiledpage  .linkteacher div img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.likedteacheronprofiledpage .like {
+  width: 60px;
+ 
+}
+
+.likedteacheronprofiledpage  .like button{
+  background-color: transparent;
+}
+
+.likedteacheronprofiledpage  .like img{
+  width: 100%;
+  height: 40px;
+}
+
+
+ .studentapplication2{
+    width: 100%;
+    margin: 0.3rem 0;
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-color: rgb(134, 132, 132);
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .studentapplication{
+    width: 100%;
+    margin: 0.3rem 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+  border: 10px solid #f08c49;
+  }
+  
+.notification h5{
+  float: right;
+}
+ 
+
+.notification .newnotif::before{
+  content: "новое!";
+  color: rgb(194, 96, 218);
+  margin-right: 0.3rem;
+}
+
+.notification button{
+  padding: 0.3rem;
+  border-radius: 2px;
+  background-color:#cfc6d2;
+  margin-left: 85%;
+}
+
+.notification button:hover{
+  background-color:#8a838c;
+}
+
+
+.twoelement{
+  margin: 1rem;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  color: #111316;
+}
+
+.spanapplication{
+  margin: 0 1rem;
+  font-size: 1.2rem;  
+}
+
+
+
+.usercard{
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 0.3rem ;
+  padding: 0.7rem;
+  display: flex;
+}
+
+.usercard div:nth-of-type(1){
+  width: 60%
+}
+
+.accoutnpic{
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.accoutnpic img{
+  width: 100%;
+  height: 100%;
+}
+.subjectapply {
+  width: 50%;
+  height: 100%;
+  margin: 0.8rem auto;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+}
+
+.subjectapply h4{
+  font-family: "Roboto Slab", serif;
+}
+
+.subjectapply span{
+  color: #7c85a2; 
+  font-size: smaller;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.subjectapply .contain{
+
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subjectapply .contain .purposebutton{
+  border: 2px solid white;
+  padding: 0.1rem;
+  border-radius: 10px;
+  margin: 0.1rem;
+  width: 30%;
+  height: 7vh;
+}
+
+.subjectbutton{
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0.1rem;
+  width: 30%;
+  height: 17vh;
+}
+.subjectbutton div{
+  width: 70px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 auto 0.4rem;
+}
+
+
+.subjectbutton div img{
+  width: 100%;
+  height: 100%;
+}
+
+.applybtn{
+  display: block;
+  margin: 0 auto 30px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #f69b32; 
+  border-radius: 10px;
+  color: white;
+}
+
+.applybtn:hover, .restbtn:hover {
+  background-color: #564138; 
+}
+
+.restbtn{
+  padding: 0.5rem;
+  background-color: #c1cef7; 
+  border-radius: 10px;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 245, 245, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 50%;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.close {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  font-size: 30px;
+  cursor: pointer;
+ 
+}
+
+
+
+.subjectappll{
+  padding: 0.3rem;
+  border-radius: 2px;
+  background-color:#c1cef7; 
+  margin-top: 2%;
+  margin-right: 1%;
+}
+
+.subjectappll:hover{
+  background-color:rgb(79, 74, 80); 
+}
+
+.sess{
+    display:flex;
+   flex-direction: row;
+   padding-top:30px;
+   padding-left:50px;
+   padding-bottom: 30px;
+}
+
+
+.sess1{
+   width:180px;
+   display: flex;
+   flex-direction: column;
+}
+
+.profilePage {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: 30px auto;
+  border: 5px solid rgb(229, 141, 58);
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.profilePage input[type="text"],
+.profilePage input[type="email"] {
+  padding: 10px;
+  margin: 10px 0;
+  outline: none;
+  display: block;
+  width: 100%;
+  background: transparent;
+  border-bottom: 2px solid rgb(111, 112, 112);
+}
+
+
+
+.profilePage button {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(229, 141, 58);
+  color: white;
+}
+
+.profilePage button:hover {
+  color: white;
+  background-color: rgb(90, 89, 88);
+}
+
+.noSessions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 40px;
+  font-weight: 500;
+  color:#f69b32;
+}
